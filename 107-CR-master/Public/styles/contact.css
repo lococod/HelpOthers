@@ -1,0 +1,63 @@
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(197, 108, 197);
+}
+
+.row{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bolder ;
+    color: white;
+  
+}
+
+.col-4{
+    text-align: right;
+}
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: -1;
+  }
+  
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    
+  }
+
+  .btn{
+      font-weight: bold;
+      color: white;
+  }
+
+  .container{
+      text-align: center;
+  }
+
+  .container{
+    border:1px solid rgb(129, 156, 187);
+    padding: 0;
+    background-color: black;
+}
+
+.form{
+    padding: 10px 20px;
+}
+
+.hidden{
+    display: none;
+}
+

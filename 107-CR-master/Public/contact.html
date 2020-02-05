@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Contact</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="styles/admin.css" rel="stylesheet">
+
+</head>
+
+<div id="bg">
+    <img src="images/background.png" alt="">
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="Catalog.html">Gill's Craft Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="Admin.html">Register New Item <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Message Me</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Contact Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Phone</a>
+                    <a class="dropdown-item" href="#">Email</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Chat</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">@GillStore Instagram</a>
+            </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+            <input id="txtSearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="btnSearch" class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+        </div>
+    </div>
+</nav>
+    
+    <body>
+        <div class="container">
+            <h1> Send your message!</h1>
+    
+            <div class="form">
+    
+                <div class="row">
+                    <div class="col-4">
+                        <label>Name</label>
+    
+                    </div>
+    
+                    <div class="col-8">
+                        <input id="txtName" type="text" class="form-control">
+                    </div>
+                </div>
+                <!--end code-->
+    
+                <div class="row">
+                    <div class="col-4">
+                        <label>Message</label>
+    
+                    </div>
+    
+                    <div class="col-8">
+                        <input id="txtDescription" type="text" class="form-control">
+                    </div>
+                </div>
+                <!--end Description-->
+    
+                <div class="row">
+                    <div class="col-4">
+    
+                    </div>
+    
+                    <div class="col-8">
+                        <button id="btnSave" class="btn btn-primary">Register Message</button>
+                        <span id="alertSuccess" class="alert alert-success hidden">
+                            The Message has been saved correctly!
+                        </span>
+                    </div>
+                </div>
+            </div>
+    
+            <!--End form-->
+    
+        </div>
+        </div>
+    
+    
+    
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    
+        <script src="scripts/admin.js"></script>
+        <script src="scripts/contact.js"></script>
+
+</body>
+</html>
